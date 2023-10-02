@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.w-87 {
+  width: 87%;
+}
+.side-bar {
+  width: 20%;
+  background-color: #202b46;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+.logo-img img {
+  width: 100px;
+}
+.toolbar-ul {
+  padding: 15px 40px;
+}
+
+.toolbar-ul li {
+  color: #fff;
+  padding: 8px 25px;
+  /* list-style: disc !important; */
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.toolbar-ul li:hover {
+  background-color: #3e97ff;
+  border-radius: 7px;
+}
+
+/* === right-side ==== */
+
+.right-side {
+  width: 80%;
+}
+nav {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
+}
+.menu{
+    padding: 10px 50px;
+}
+.menu li {
+  padding: 12px;
+  margin: 0 5px;
+  cursor: pointer;
+  /* font-weight: 500; */
+  font-size: 20px;
+  color: #4b5675;
+}
+.active {
+  color: #3e97ff !important;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+.menu li:hover {
+  color: #3e97ff;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.icon-ul{
+    padding: 10px 37px;
+}
+.icon-ul li {
+  padding: 12px;
+}
+.icon-ul li i {
+  font-size: 25px;
+}
+.icon-ul li img {
+  width: 50px;
+  border-radius: 10px;
+}
+.dash-content {
+  background-color: #f7f7f7;
+}
+
+.card-proj {
+  background-color: #3e97ff;
+  padding: 30px;
+  border-radius: 10px;
+}
+.card-proj h2 {
+  color: #fff;
+}
+.card-proj p {
+  color: #f9f9f9;
+}
+
+.proj-earn {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.proj-earn h1 span {
+  font-size: 16px;
+  color: #198754;
+  background-color: #8ef5c5;
+  padding: 1px 8px;
+  border-radius: 5px;
+}
+.proj-earn p {
+  color: #b5b5c3;
+}
+
+.achieve-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.achieve-card > p {
+  color: #b5b5c3;
+}
+.person img {
+  width: 50px;
+  border-radius: 50%;
+}
+.view-icon i {
+  background-color: #ddd;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+th {
+  padding: 15px 0;
+}
+tr {
+  padding: 10px 0;
+}
