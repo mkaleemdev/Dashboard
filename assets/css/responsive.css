@@ -1,0 +1,80 @@
+@media screen and (max-width: 500px) {
+  .side-bar {
+    width: 60%;
+    top: -20px;
+    display: none;
+  }
+  .responsive-bg {
+    width: 40%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: block;
+    position: fixed;
+    display: none;
+  }
+  .right-side {
+    width: 100%;
+  }
+  .menu {
+    display: none !important;
+  }
+  .mobile-menu-icon {
+    display: block;
+    padding: 0 5px;
+  }
+  .mobile-menu-icon i {
+    font-size: 25px;
+  }
+  nav {
+    padding: 0 0.5rem;
+  }
+  .dash-content {
+    padding: 2rem 1rem;
+  }
+  .icon-ul{
+    padding: 0;
+  }
+  .icon-ul > li {
+    padding: 10px;
+  }
+  .icon-ul > li > i {
+    font-size: 16px;
+  }
+  .icon-ul > li > i sup {
+    padding: 2px;
+    border-radius: 4px;
+    font-size: 8px;
+  }
+  .icon-ul > li > img {
+    width: 30px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 920px) {
+  .side-bar {
+    width: 30%;
+    top: -20px;
+    display: none;
+  }
+  .responsive-bg {
+    width: 70%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: block;
+    position: fixed;
+    display: none;
+  }
+  .right-side {
+    width: 100%;
+  }
+  .menu {
+    display: none !important;
+  }
+  .mobile-menu-icon {
+    display: block;
+    font-size: 25px;
+  }
+  nav {
+    padding: 0 1.5rem;
+  }
+}
