@@ -1,3 +1,3 @@
 # Dashboard
 
-https://mkaleem56.github.io/Project/
+https://mkaleem56.github.io/Dashboard/
