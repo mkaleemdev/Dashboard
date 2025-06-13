@@ -24,7 +24,7 @@ A modern, responsive **admin dashboard interface** built using **HTML**, **CSS**
 - ✅ CSS3
 - ✅ Bootstrap 5
 - ✅ Bootstrap Icons
-- ✅ JavaScript (Vanilla)
+- ✅ JavaScript 
 - ✅ jQuery
 - ✅ Chart.js
 
